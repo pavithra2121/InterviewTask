@@ -363,7 +363,7 @@ ul.social-list li:nth-child(3) a:hover{
 |||   statement
 ===========================*/
 #statement {
- background:url("../tech/tech-quote.jpg");
+ background:url("../tech/tech-statement-min.jpg");
  background-repeat:no-repeat;
  background-size:cover;
  background-position:center;
@@ -728,7 +728,7 @@ pricing-table .price h2 span.month{
   Stats section
 =================================*/
 #stats {
- background:url("../stats/stats-bg.jpg");
+ background:url("../stats/stats-bg-min.jpg");
  background-repeat:no-repeat;
  background-size:cover;
  background-position:center;
@@ -787,8 +787,9 @@ pricing-table .price h2 span.month{
 }
 .client img{
  display:inline-block !important;
-
+ 
 }
+
 /*=================================
 | |  blog section
 ===================================*/

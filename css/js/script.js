@@ -122,9 +122,9 @@ $(function () {
 /*===============================
  client section
 ================================*/
-$(function () {
+/*$(function () {
     $("#clients-list").owlCarousel({
-        items:6,
+        items:2,
         autoplay:true,
         smartSpeed:700,
         loop:true,
@@ -134,7 +134,41 @@ $(function () {
         navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>']
 
     });
-});
+});*/
+$(".#clients-list").owlCarousel({
+    stagePadding: 50,
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+
+/*$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
 /*============================
   show and hide white navigation
 ==============================*/
